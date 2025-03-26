@@ -41,7 +41,9 @@ The is a couple of custom nodes implemented in C++ that are used thourghout the 
 * Execute Task On Tick - a gameplay abilty latent node that can be used like an event tick inside gameplay abilities blueprint
 
 ### Solutions from Lyra
-...
+* Input Biding - similiar to Lyra, this project uses custom input component deriving from the Enhanced Input Component, that binds both native input and gameplay abilties based in gameplay tags
+* Linked Anim Layer - to support more flexible animation switch project uses custom animation layers. It allows to set given layer with appropriate animations/blend spaces bases on the equipped weapon along with enabling/disabling them whether or not this weapon is equipped.
+* Pawn Components - Pawn Extension components used for Combat(weapons management and weapon collision events handling) and for UI(sending delegate and Widget communication) 
 
 ### Tech and Tools
 * Unreal Engine 5
